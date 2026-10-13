@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Love Scoop | Contact Us</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Love Scoop</a>
+
+        <nav aria-label="Main Navigation">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="contact.html" aria-current="page">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Contact Love Scoop</h1>
+        <img src="images/car.jpg"
+             alt="Love Scoop Ice Cream Truck"
+             width="300">
+
+        <p>
+            Have a question or want to find our ice cream truck?
+            Send us a message!
+        </p>
+        <div class="alert alert-info" role="status">
+            <strong>Our truck moves every day</strong>
+            Tap "Find Our Truck" below to see where we are today.
+        </div>
+
+        <form action="#" method="post">
+
+            <div class="field">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="field">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="field">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="1">
+            </div>
+
+            <div class="field">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="field">
+                <label for="date">Contact Date:</label>
+                <input type="date" id="date" name="date">
+            </div>
+
+            <fieldset>
+                <legend>Reason for Contact</legend>
+
+                <input type="radio" id="question" name="reason" value="question" required>
+                <label for="question">Question</label>
+
+                <input type="radio" id="suggestion" name="reason" value="suggestion">
+                <label for="suggestion">Suggestion</label>
+
+                <input type="radio" id="truck-location" name="reason" value="truck-location">
+                <label for="truck-location">Where Is The Ice Cream Truck?</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>How Did You Hear About Us?</legend>
+
+                <input type="checkbox" id="facebook" name="source" value="facebook">
+                <label for="facebook">Facebook</label>
+                <input type="checkbox" id="twitter" name="source" value="twitter">
+                <label for="twitter">Twitter</label>
+                <input type="checkbox" id="instagram" name="source" value="instagram">
+                <label for="instagram">Instagram</label>
+                <input type="checkbox" id="google" name="source" value="google">
+                <label for="google">Google</label>
+
+            </fieldset>
+
+            <div class="field">
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="egypt">Egypt</option>
+                    <option value="usa">USA</option>
+                    <option value="ksa">Saudi Arabia</option>
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="message">Leave Your Message:</label>
+                <textarea id="message" name="message" rows="5"
+                        placeholder="Write your message here..."></textarea>
+            </div>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+        <section>
+            <h2>Find Our Ice Cream Truck</h2>
+
+            <p>
+                Want to know where our truck is today?
+                Click below to check its location on Google Maps.
+            </p>
+
+            <a href="https://www.google.com/maps"
+               target="_blank"
+               rel="noopener noreferrer">
+                Find Our Truck
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Love Scoop. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
